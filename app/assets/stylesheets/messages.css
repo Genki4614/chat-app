@@ -1,0 +1,158 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+  
+}
+
+.side-bar-header{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #253141;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room a{
+  border: 1px solid lightblue ;
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room{
+  padding: 20px 0 40px 0;
+}
+
+.room-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.chat{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+
+}
+
+.chat-header{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+  margin-left: 40px;
+}
+
+.right-header{
+  margin-top: 40px;
+}
+
+.header-button a{
+  color: darkred;
+  text-decoration: none;
+  border: 1px solid darkred;
+  padding: 20px;
+}
+
+.messages{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message{
+  margin-top: 10px;
+}
+
+.upper-message{
+  display: flex;
+}
+
+.message-user{
+  font-size: 16px;
+  color: #434A54;
+}
+
+.message-date{
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;  
+}
+
+.lower-message{
+  margin-top: 10px;
+}
+.message-content{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.form{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px ;
+  display: flex;
+}
+
+.form-input{
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-message{
+  padding-left: 10px;
+  height: 50px;
+  border: none;
+}
+
+.form-submit{
+  background-color: #38aef0;
+  padding: 0 20px;
+  height: 50px;
+  color: white;
+  margin-left: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
